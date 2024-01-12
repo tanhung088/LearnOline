@@ -1,0 +1,36 @@
+﻿@model DemoCore_MVC.Models.Employee
+@{
+	TempData["title"] = "Create Page";
+}
+<h1>Create Page</h1>
+<!--Cach cua .netframework-->
+@using(Html.BeginForm())
+{
+	<form>
+		<div>
+			<div class="mb-3 mt-3">
+				@Html.LabelFor(model=>model.Emp_name)
+				@Html.EditorFor(model=>model.Emp_name)
+				@Html.ValidationMessageFor(model=>model.Emp_name)
+			</div>
+			<div class="mb-3 mt-3">
+				@Html.LabelFor(model=>model.Phone)
+				@Html.EditorFor(model=>model.Phone)
+				@Html.ValidationMessageFor(model=>model.Phone)
+			</div>
+			<div class="mb-3 mt-3">
+				@Html.LabelFor(model=>model.Skills)
+				@Html.EditorFor(model=>model.Skills)
+				@Html.ValidationMessageFor(model=>model.Skills)
+			</div>
+			<div class="mb-3 mt-3">
+				@Html.LabelFor(model=>model.Experiences)
+				@Html.EditorFor(model=>model.Experiences)
+				@Html.ValidationMessageFor(model=>model.Experiences)
+			</div>
+			<div>
+				<input type="submit" value="Create" />
+			</div>
+		</div>
+	</form>
+}

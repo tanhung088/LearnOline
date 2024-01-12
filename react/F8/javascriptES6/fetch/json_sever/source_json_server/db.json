@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "course_name": "Javascript",
+      "description": "Hoc javascript co ban"
+    },
+    {
+      "id": 2,
+      "course_name": "Nodejs",
+      "description": "Hoc Node Js co ban"
+    },
+    {
+      "id": 3,
+      "course_name": "PHP",
+      "description": "Hoc PHP co ban"
+    },
+    {
+      "course_name": "Reactjs",
+      "description": "Hoc Reactjs co ban",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="StudentList"/>
+    <fullyQualifiedTypeName name="javax.swing.event.ListDataEvent"/>
+    <fullyQualifiedTypeName name="javax.management.ConstructorParameters"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="Account"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="MyDate"/>
+    <fullyQualifiedTypeName name="CafeReceipt"/>
+    <fullyQualifiedTypeName name="bank.Account"/>
+    <fullyQualifiedTypeName name="customer.ATM"/>
+    <fullyQualifiedTypeName name="ManageAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="dell.DellComputer"/>
+    <fullyQualifiedTypeName name="general.TestComputer"/>
+    <fullyQualifiedTypeName name="general.Computer"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="main.StudentList"/>
+    <fullyQualifiedTypeName name="main.Student"/>
+    <fullyQualifiedTypeName name="Shape"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Coordinate"/>
+    <fullyQualifiedTypeName name="rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Manufacturer"/>
+    <fullyQualifiedTypeName name="transport"/>
+    <fullyQualifiedTypeName name="plane"/>
+    <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Student"/>
+</qualifiedTypeNameHistroy>

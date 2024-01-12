@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OnlineShop_CoreMVC_TongHop.props" />
+</Project>

@@ -1,0 +1,27 @@
+Buoi 1: Set up
+php artisan list: Show cac list cua laravel
+php artisan make:controller nameController : tao controller
+php artisan migrate: thiet lap cac bang mac dinh cua laravel
+php artisan down : thiet lap che do bao tri
+php artisan make:controller nameController
+php artisan view:cache cached view
+php artisan view:clear xoa view
+Cach de chinh sua file bao tri:
+ - Vao resource->view-> tao folder errors-> tao file 503.blade.php va say do chinh sua file nay
+_APP_ENV trong file .ENV
++APP_ENV=local:Call API with sanbox
++APP_ENV=production: Call API with live
+
+Buoi2: Routes
+_Component
+php artisan make:component Alert
+He thong se tao class trong thu muc : app\View\Component va view trong : resource\view\components
+Vao Provider dinh nghia component
+Blade::component('name-component', Alert::class), Alert la class da duoc tao
+Goi component bang cach <x-name-component>
+Hoac goi truc tiep thong qua duong dan
+VD: <x-Inputs.button> trong do Inputs la folder chua file button
+
+
+
+

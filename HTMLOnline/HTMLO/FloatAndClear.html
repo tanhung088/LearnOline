@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Panel{
+            margin:50px 0 0 50px;
+            width: 250px;
+            height: 250px;
+            border: solid 1px red;
+            /*
+                max-width,height : là giá trị lớn nhất mà phần tự được phép thực hiện 
+                min-width,height : là giá trị nhỏ nhất
+            */
+            /*overflow: là cách xác định hiển thị nội dung vượt quá độ lớn của phần tử chứa nó*/
+        }
+        #Trai{
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            float:left;
+        }
+        /* clear : dùng để xóa thuộc tính float của phần tử đứng trước đó */
+        #Xoa{
+            clear:both;
+        }
+        #Xoa2{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div id="Panel">
+        123
+        <div id="Trai"></div>
+        <div id="Xoa"></div>
+        <div id="Xoa2"></div>
+        ABC
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = " SHOP";
+    
+}
+
+
+<br />
+<div class="row">
+    <div class="col-md-8">
+       @Html.Action("SlidePartial","Home")
+    </div>
+    <div class="col-md-4">
+        <img src="~/HinhanhSP/qc3.gif" class="img-responsive" alt="" />
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Xem thêm... &raquo;</a></p>
+    </div>
+</div>
+<div>
+    <img class="img-responsive" src="~/HinhanhSP/uudai.png" />
+</div>
+<br />
+<div class="spnoibat">
+    <div class="row">
+
+        <h3> SẢN PHẨM NỔI BẬT</h3>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/sanphambanchay1.jpg" class="img-responsive" alt="" />
+        </div>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/sanphambanchay2.png" class="img-responsive" alt="" />
+        </div>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/sanphambanchay3.jpg" class="img-responsive" alt="" />
+        </div>
+    </div>
+</div>
+
+
+<div class="dt">
+
+    @Html.Action("spcacanhPartial", "Sanpham")
+</div>
+<div class="dt">
+
+    @Html.Action("spcaythuysinhpartial", "Sanpham")
+</div>
+
+<div class="dt">
+
+    @Html.Action("sphocapartial", "Sanpham")
+</div>
+
+<div class="row">
+    <h2> Tin tức sản phẩm</h2>
+    <div class="col-md-8">
+        <h2>   Video </h2>
+    </div>
+    <div class="col-md-4">
+        <h2>Tin tức</h2>
+    </div>
+</div>
+

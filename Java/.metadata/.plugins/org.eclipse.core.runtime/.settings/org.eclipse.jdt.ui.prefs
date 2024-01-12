@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Scanner"><rhs name\="Scanner"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="Student"><rhs name\="Student"/></lhs><lhs name\="StudentList"><rhs name\="StudentList"/></lhs><lhs name\="Account"><rhs name\="Account"/></lhs><lhs name\="MyDate"><rhs name\="MyDate"/></lhs><lhs name\="CafeReceipt"><rhs name\="CafeReceipt"/></lhs><lhs name\="ManageAccount"><rhs name\="ManageAccount"/></lhs><lhs name\="general.Computer"><rhs name\="dell.DellComputer"/></lhs><lhs name\="dell.DellComputer"><rhs name\="dell.DellComputer"/></lhs><lhs name\="general.TestComputer"><rhs name\="general.TestComputer"/></lhs><lhs name\="Person"><rhs name\="Person"/><rhs name\="Student"/></lhs><lhs name\="main.StudentList"><rhs name\="main.StudentList"/></lhs><lhs name\="main.Student"><rhs name\="main.Student"/></lhs><lhs name\="Coordinate"><rhs name\="Coordinate"/></lhs><lhs name\="Shape"><rhs name\="rectangle"/></lhs><lhs name\="Manufacturer"><rhs name\="Manufacturer"/></lhs><lhs name\="transport"><rhs name\="plane"/></lhs><lhs name\="plane"><rhs name\="plane"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

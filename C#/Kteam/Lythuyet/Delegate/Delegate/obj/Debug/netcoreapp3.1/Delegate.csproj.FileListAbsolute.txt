@@ -1,0 +1,14 @@
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\bin\Debug\netcoreapp3.1\Delegate.exe
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\bin\Debug\netcoreapp3.1\Delegate.deps.json
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\bin\Debug\netcoreapp3.1\Delegate.runtimeconfig.json
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\bin\Debug\netcoreapp3.1\Delegate.runtimeconfig.dev.json
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\bin\Debug\netcoreapp3.1\Delegate.dll
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\bin\Debug\netcoreapp3.1\Delegate.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.csproj.AssemblyReference.cache
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.AssemblyInfoInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.AssemblyInfo.cs
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.csproj.CoreCompileInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.dll
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\Delegate\Delegate\obj\Debug\netcoreapp3.1\Delegate.genruntimeconfig.cache

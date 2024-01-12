@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script>
+        var myApp = angular.module('scopeDemo', []);
+        myApp.controller('classmyCtrl', function($scope) {
+            
+        });
+        myApp.controller('schoolmyCtrl', function($scope) {
+             //Neu co chua gia tri cho Name thi se uu tien lay trong controller nay
+        });
+        myApp.controller('topmyCtrl', function($scope) {
+            $scope.Name = "This is nested Scope";
+        });
+    </script>
+</head> 
+<body ng-app="scopeDemo">
+    <div ng-controller="topmyCtrl">
+        <div ng-controller="classmyCtrl">
+            <input type="text" ng-model="Name">
+        </div>
+        <div ng-controller="schoolmyCtrl">
+            <input type="text" ng-model="Name">
+        </div>
+        <input type="text" ng-model="Name"> <!--input cua topmyCtrl>
+    </div>
+</body>
+</html>

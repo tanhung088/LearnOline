@@ -1,0 +1,14 @@
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\bin\Debug\netcoreapp3.1\DethiLapTop.exe
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\bin\Debug\netcoreapp3.1\DethiLapTop.deps.json
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\bin\Debug\netcoreapp3.1\DethiLapTop.runtimeconfig.json
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\bin\Debug\netcoreapp3.1\DethiLapTop.runtimeconfig.dev.json
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\bin\Debug\netcoreapp3.1\DethiLapTop.dll
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\bin\Debug\netcoreapp3.1\DethiLapTop.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.csproj.AssemblyReference.cache
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.AssemblyInfoInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.AssemblyInfo.cs
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.csproj.CoreCompileInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.dll
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\DethiLapTop\DethiLapTop\obj\Debug\netcoreapp3.1\DethiLapTop.genruntimeconfig.cache

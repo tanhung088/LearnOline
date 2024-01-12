@@ -1,0 +1,14 @@
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\bin\Debug\netcoreapp3.1\Bai2.exe
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\bin\Debug\netcoreapp3.1\Bai2.deps.json
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\bin\Debug\netcoreapp3.1\Bai2.runtimeconfig.json
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\bin\Debug\netcoreapp3.1\Bai2.runtimeconfig.dev.json
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\bin\Debug\netcoreapp3.1\Bai2.dll
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\bin\Debug\netcoreapp3.1\Bai2.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.csproj.AssemblyReference.cache
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.AssemblyInfoInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.AssemblyInfo.cs
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.csproj.CoreCompileInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.dll
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\Bai2\Bai2\obj\Debug\netcoreapp3.1\Bai2.genruntimeconfig.cache

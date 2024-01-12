@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script>
+        var myApp = angular.module('scopeDemo', []);
+        myApp.controller('classmyCtrl', function($scope, $rootScope) {
+            //$scope.Name = "AngularJs";
+            $rootScope.Name = "AngularJs" // khi dung root la scope tong quat scope cua cac controller khac nhau
+            $scope.Change = function (){
+                $scope.Name = "Hello" + $scope.Name;
+            }
+        });
+        myApp.controller('schoolmyCtrl', function($scope, $rootScope) {
+            //$scope.Name = "Angular"; 
+        });
+    </script>
+</head> 
+<body ng-app="scopeDemo">
+    <div ng-controller="classmyCtrl">
+        <input type="text" ng-model="Name">
+    
+        <button ng-click="Change()">Click</button>
+    </div>
+    <div ng-controller="schoolmyCtrl">
+        <input type="text" ng-model="Name">
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\bin\Debug\netcoreapp3.1\DethiShape.exe
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\bin\Debug\netcoreapp3.1\DethiShape.deps.json
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\bin\Debug\netcoreapp3.1\DethiShape.runtimeconfig.json
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\bin\Debug\netcoreapp3.1\DethiShape.runtimeconfig.dev.json
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\bin\Debug\netcoreapp3.1\DethiShape.dll
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\bin\Debug\netcoreapp3.1\DethiShape.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.csproj.AssemblyReference.cache
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.AssemblyInfoInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.AssemblyInfo.cs
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.csproj.CoreCompileInputs.cache
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.dll
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.pdb
+D:\LearnOline\C#\Kteam\Lythuyet\DethiShape\DethiShape\obj\Debug\netcoreapp3.1\DethiShape.genruntimeconfig.cache

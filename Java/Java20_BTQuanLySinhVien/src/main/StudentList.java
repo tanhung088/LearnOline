@@ -1,0 +1,29 @@
+package main;
+
+import java.util.ArrayList;
+
+public class StudentList {
+	private ArrayList<Student> stdList;
+	public StudentList() {
+		this.stdList = new ArrayList<Student>();
+	}
+
+	public StudentList(ArrayList<Student> stdList) {
+		this.stdList = stdList;
+	}
+	
+	//ham them sinh vien vao danh sach
+	public void addStudent(Student std) {
+		this.stdList.add(std);	
+	}
+	//in danh sach sinh vien
+	public void displayStudentList() {
+		int i = 1;
+		for (Student std : stdList) {
+			//System.out.printf("-Student %d is\n" , i);
+			System.out.println(std);
+			i++;
+		}
+	}
+	
+}

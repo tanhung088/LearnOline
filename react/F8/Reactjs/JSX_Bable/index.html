@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="text/bable">
+    //khi add cdn bable thi khi render xong giao dien
+        //se tim file nao co text/bale de no chuyen doi jsx -> es5
+        const Course = [{
+            name: 'Javascript',
+            price: '1000',
+            content: 'hoc js'
+          },
+          {
+            name: 'PHP',
+            price: '800',
+            content: 'hoc php'
+          },
+          {
+            name: 'Reactjs',
+            price: '2000',
+            content: 'hoc reactjs'
+          }
+        ]
+        const jsx = ( 
+              <ul>
+                  {Course.map((item => 
+                      <li>{item.name}</li>
+                  )}
+              </ul>
+          )
+          ReactDOM.render(jsx, document.getElementById('root'));
+      </script>
+</body>
+
+
+</html>

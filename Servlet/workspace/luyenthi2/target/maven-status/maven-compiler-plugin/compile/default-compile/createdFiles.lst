@@ -1,0 +1,6 @@
+com\mycompany\luyenthi2\resources\JakartaEE10Resource.class
+com\mycompany\luyenthi2\JakartaRestConfiguration.class
+com\mycompany\luyenthi2\Servlet\PhoneServlet.class
+com\mycompany\luyenthi2\DAO\PhoneDAO.class
+com\mycompany\luyenthi2\Model\PhoneModel.class
+com\mycompany\luyenthi2\DAO\UploadDAO.class

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script>
+        var myApp = angular.module('myModule', []);
+        myApp.controller('myC', function($scope){
+            var students = [
+                {Name: "Le Van A", Age: "22", Gender: "Male"},
+                {Name: "Le Van B", Age: "23", Gender: "Male"},
+                {Name: "Le Van C", Age: "24", Gender: "Male"},
+                {Name: "Le Van D", Age: "25", Gender: "Male"}
+            ];
+            $scope.std = students;
+            $scope.Increase = function(x){
+                x.Age++;
+            }
+            $scope.Decrease = function(x){
+                x.Age--;
+            }
+        });
+
+    </script>
+</head>
+<body ng-app="myModule" ng-controller="myC">
+    <div>
+       <table cellpadding="10px" border="2px">
+           <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Gender</td>
+                <td>Increase</td>
+                <td>Decrease</td>
+            </tr>
+           </thead>
+           <tbody>
+            <tr ng-repeat="x in std">
+                <td>{{x.Name}}</td>
+                <td> {{x.Age}} </td>
+                <td> {{x.Gender}} </td>
+                <td>
+                    <button ng-click="Increase(x)">Click</button>
+                </td>
+                <td>
+                    <button ng-click="Decrease(x)">Click</button>
+                </td>
+            </tr>
+           </tbody>
+       </table>
+    </div>
+</body>
+</html>

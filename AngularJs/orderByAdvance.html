@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="./orderByAdvanceJason.js"></script>
+    <style>
+        #head{
+            cursor:pointer;
+        }
+        .arrow-up{
+            width: 0;
+            height: 0;
+            border-left:5px slolid transparent;
+            border-right:5px slolid transparent;
+            border-bottom:10px slolid black;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <section ng-app="myModule" ng-controller="myCtrl">
+        <table class="table">
+            <tr id="head">
+                <td ng-click="sort('Name')">Name <div ng-class="getSortClass('name')"></div></td>
+                <td ng-click="sort('Salary')">Salary <div ng-class="getSortClass('Salary')"></div></td>
+                <td ng-click="sort('Date')">Date <div ng-class="getSortClass('Date')"></div></td>
+            </tr>
+            <tr ng-repeat="x in nv | orderBy:sortColumn:reverse">
+                <!--limitTo:2 la se chi hien thi 2 hang trong data tinh tu hang dau tien-->
+                <td> {{x.Name | uppercase}} </td>
+                <td> {{x.Salary | currency}} </td>
+                <td> {{x.BDate | date:"dd/MM/yyyy"}} </td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

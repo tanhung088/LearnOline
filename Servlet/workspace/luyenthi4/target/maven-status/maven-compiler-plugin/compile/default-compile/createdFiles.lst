@@ -1,0 +1,7 @@
+com\mycompany\luyenthi4\Model\ProductModel.class
+com\mycompany\luyenthi4\DAO\SDAO.class
+com\mycompany\luyenthi4\JakartaRestConfiguration.class
+com\mycompany\luyenthi4\DAO\UploadFileDAO.class
+com\mycompany\luyenthi4\Model\sModel.class
+com\mycompany\luyenthi4\resources\JakartaEE10Resource.class
+com\mycompany\luyenthi4\Servlet\ProductServlet.class

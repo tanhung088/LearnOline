@@ -1,0 +1,38 @@
+﻿@model IEnumerable<OnlineShop_CoreMVC_TongHop.Models.Product>
+@{
+	TempData["title"] = "List Product";
+}
+<h1>List of Product</h1>
+@Html.ActionLink("Create New Product", "Create", "Product", null,new{@class="btn btn-primary"})
+<form asp-action="Index">
+	<input name="inputSearch" placeholder="Enter to Search Name" />
+	<button type="submit">Search</button>
+</form>
+<table class="table table-striped">
+	<tr>
+		<th>@Html.DisplayNameFor(model=>model.Pro_Id)</th>
+		<th>@Html.DisplayNameFor(model=>model.Pro_Name)</th>
+		<th>@Html.DisplayNameFor(model=>model.Pro_Des)</th>
+		<th>@Html.DisplayNameFor(model=>model.UnitPrice)</th>
+		<th>@Html.DisplayNameFor(model=>model.Quantity)</th>
+		<th>@Html.DisplayNameFor(model=>model.Discount)</th>
+		<th>Action</th>
+	</tr>
+	<!--Cach viet cua ,bnet framework-->
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@item.Pro_Id</td>
+			<td>@item.Pro_Name</td>
+			<td>@item.Pro_Des</td>
+			<td>@item.UnitPrice</td>
+			<td>@item.Quantity</td>
+			<td>@item.Discount</td>
+			<td>
+				@Html.ActionLink("Delete", "Delete", "Product", new {id = item.Pro_Id},
+			new {onclick = "return confirm('Ban co muon delete?')", @class="btn btn-danger"})
+				<a asp-action="Update" asp-controller="Product" asp-route-id="@item.Pro_Id" class="btn btn-warning">Update</a>
+			</td>
+		</tr>
+	}
+</table>

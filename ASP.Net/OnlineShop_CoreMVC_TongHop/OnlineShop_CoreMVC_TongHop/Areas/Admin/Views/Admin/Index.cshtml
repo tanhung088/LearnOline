@@ -1,0 +1,59 @@
+﻿@model IEnumerable<OnlineShop_CoreMVC_TongHop.Models.User>
+@{
+	TempData["title"] = "List Employee";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<a asp-action=""></a>
+<div class="page-header">
+    <h3 class="page-title"> List of User </h3>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">List All User</li>
+        </ol>
+    </nav>
+</div>
+<div class="row">
+    <div class="col-lg-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">User Table</h4>
+                <p class="card-description">
+                    Add user <code>.table</code>
+                </p>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>User Name</th>
+                                <th>Email.</th>
+                                <th>Role</th>
+                                <th>View Bag</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        @foreach (var item in Model)
+                        {
+                            <tbody>
+                                <tr>
+                                    <td>@item.User_Name</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.Role</td>
+                                    <td>
+                                        <select>
+
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <label class="badge badge-danger">Delete</label>
+                                        <label class="badge badge-warning">Update</label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

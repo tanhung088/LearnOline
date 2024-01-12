@@ -1,0 +1,6 @@
+com\mycompany\luyenthi1\DAO\EmpDAO.class
+com\mycompany\luyenthi1\Model\EmpModel.class
+com\mycompany\luyenthi1\Servlet\EmpServlet.class
+com\mycompany\luyenthi1\JakartaRestConfiguration.class
+com\mycompany\luyenthi1\resources\JakartaEE10Resource.class
+com\mycompany\luyenthi1\Servlet\UploadServlet.class

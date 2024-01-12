@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #P1{
+            text-align: justify;
+            text-indent: 50px;
+            letter-spacing: 3px;    /* là thuộc tính chỉ ra khoảng cách giữa các chữ cái*/
+            word-spacing: 5px;      /*là khoảng cách giữa các từ trong văn bản*/
+            line-height: 50px;    
+            /*là độ cao của dòng văn bản hoặc là khoảng cách giữa các dòng
+            lưu ý: Nếu line height mà nhỏ hơn font-size thì chứ sẽ đè lên nhau
+            */
+            /*Thuộc tính text-shadow : tạo đổ bóng cho chữ cái văn bản
+                Value:
+                    + X : Độ lên bên phải của bóng
+                    + Y : Độ lệch bên dưới của bóng
+                    + Z : Độ nhòe (Hiệu ứng làm mờ đường biên bóng đổ)
+                    + C : màu bóng đổ
+            */
+            text-shadow: 5px 3px 3px red;
+            /*direction : là chiều đi của văn bản(hướng ghi của văn bản)
+                unnicode-bidi : kết hợp với direction phục vụ cho một số nước có ngôn ngữ viết ngược
+            */
+            /*
+            direction: rtl;
+            unicode-bidi:isolate-override;*/
+            
+            /*vertical-align: là cách đối xử của văn bản đối với phần tử lớn hơn hoặc nhỏ hơn trong văn bản*/
+            
+        }
+        img{
+            width: 70px;
+            vertical-align: text-top;
+        }
+    </style>
+</head>
+<body>
+    <p id="P1">
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+        Đây là đoạn văn bản, Đây là đoạn văn bản
+       
+    </p>
+    <p id="P2">
+        Đây là đoạn văn bản, Đây là đoạn văn bảnĐây là đoạn văn bản, Đây là đoạn văn bản
+        <img src="../HTMLO/ronaldo.jpg" />
+        Đây là đoạn văn bản, Đây là đoạn văn bảnĐây là đoạn văn bản, Đây là đoạn văn bản
+    </p>
+</body>
+</html>

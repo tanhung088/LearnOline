@@ -1,0 +1,36 @@
+body{
+    /*
+    background-color: aquamarine;
+    background-image: url('../HTMLO/ronaldo.jpg');
+    background-repeat: no-repeat;
+    /* background-position: 100px 100px ; Phai di kem voi thuoc tinh backgr repeat */
+    /*background-clip: content-box;*/
+   background: url('../HTMLO/ronaldo.jpg') left top no-repeat,url('../HTMLO/ronaldo.jpg') right bottom no-repeat ;
+}
+#div1{
+    width: 100px;
+    height:200px;
+    background-color:red;
+    position: relative; /*Lấy góc tọa độ theo document flow.*/
+    left:100px;
+    top:100px;
+    z-index: 7; /*Quy định thứ tự xuất hiện của các thẻ div*/
+}
+#div2{
+    width: 200px;
+    height: 500px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 180px;
+    top:150px;
+    z-index: 6;
+}
+#div3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    top:100px;
+    left: 300px;
+    z-index: 6;
+}

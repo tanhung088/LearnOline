@@ -1,0 +1,36 @@
+﻿@model IEnumerable<DemoCore_MVC.Models.Employee>
+@{
+	TempData["title"] = "List Employee";
+}
+<h1>List of Employee</h1>
+@Html.ActionLink("Create New Employee", "Create", "Employee", null,new{@class="btn btn-primary"})
+<form asp-action="Index">
+	<input name="inputSearch" placeholder="Enter to Search Name"/>
+	<button type="submit">Search</button>
+</form>
+<table class="table table-striped">
+	<tr>
+		<th>@Html.DisplayNameFor(model=>model.Emp_id)</th>
+		<th>@Html.DisplayNameFor(model=>model.Emp_name)</th>
+		<th>@Html.DisplayNameFor(model=>model.Phone)</th>
+		<th>@Html.DisplayNameFor(model=>model.Skills)</th>
+		<th>@Html.DisplayNameFor(model=>model.Experiences)</th>
+		<th>Action</th>
+	</tr>
+	<!--Cach viet cua ,bnet framework-->
+	@foreach(var item in Model)
+	{
+		<tr>
+			<td>@item.Emp_id</td>
+			<td>@item.Emp_name</td>
+			<td>@item.Phone</td>
+			<td>@item.Skills</td>
+			<td>@item.Experiences</td>
+			<td>
+				@Html.ActionLink("Delete", "Delete", "Employee", new {id = item.Emp_id},
+				new {onclick = "return confirm('Ban co muon delete?')", @class="btn btn-danger"})
+				<a asp-action="Update" asp-controller="Employee" asp-route-id="@item.Emp_id" class="btn btn-warning">Update</a>
+			</td>
+		</tr>
+	}
+</table>

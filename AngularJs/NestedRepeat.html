@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script>
+        var myApp = angular.module('myModule', []);
+        myApp.controller('myC', function($scope){
+            var countries = [
+            {
+                name : "UK",
+                city : [
+                    {name: "London"},
+                    {name: "Manchester"},
+                    {name: "Birmingham"}
+                ]},
+            {
+                name: "USA",
+                city:[
+                    {name: "Los Angeles"},
+                    {name: "Chicago"},
+                    {name: "Houston"}
+                ]},
+            {
+                name: "Indian",
+                city:[
+                    {name: "Hyderabad"},
+                    {name: "Chennai"},
+                    {name: "Mumbai"}
+                ]}
+            ]
+            $scope.cot = countries;
+        })
+    </script>
+</head>
+<body ng-app="myModule" ng-controller="myC">
+    <ul>
+        <li ng-repeat="x in cot">
+            {{x.name}}
+            <ul>
+                <li ng-repeat="y in x.city">
+                    {{y.name}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
